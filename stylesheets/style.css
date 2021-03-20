@@ -10,71 +10,63 @@
 
 body{
     font-family: 'Mukta', sans-serif;
-    margin: 0;
-    padding: 0 15%;
+    background-color: var(--secondLite);
+}
+.page-wrapper{
+    width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.top-banner{
+    height: 300px;
+    width: 100%;
+    background-color: var(--prime);
+}
+#bannerLogo{
 }
 
-#bg-image{
-    height: 500px;
-    background: #141414 url("../images/PurpleWhiteAurora.jpg") no-repeat center;
-    position: absolute;
-}
-
-div.bg-text{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #DDDDDD;
-    text-align: center;
-}
-
-ul.navbar {
+.nav-bar {
     list-style-type: none;
+    width: 100%;
     margin: 0 0;
     padding: 0;
     width: auto;
     overflow: hidden;
-    background-color: #FFFFFF;
-    opacity: 0.7;
-    color: #141414;
+    background-color: var(--primeLite);
+    color: var(--textColor);
 }
 
-ul.navbar li {float: right;}
+.nav-bar li {float: left;}
 
-ul.navbar li a {
+.nav-bar li a {
     display: block;
-    margin: 0;
-    color: #141414;
+    color: var(--textColor);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-ul.navbar li a:hover:not(.active) {background-color: #111; color: #DDDDDD}
+.nav-bar li a:hover:not(.active) {
+    background-color: var(--second);
+    color: var(--textColor)
+}
 
-ul.navbar li a.active {background-color: #4a235a; color: #DDDDDD;}
+.nav-bar li a.active {
+    background-color: var(--primeDark);
+    color: var(--textColor);
+}
 
-ul.navbar li.left {float: left;}
+.nav-bar li.left {float: none;}
+
+.footer{
+    width: 100%;
+    background-color: var(--primeDark);
+}
 
 @media screen and (max-width: 600px) {
     ul.navbar li.left,
     ul.navbar li {float: none;}
 }
-
-header{
-    position: center;
-    margin: auto;
-    width:1005px;
-    height:50px;
-    left: 50%;
-    font-size: 1vw;
-}
-
-header h2{
-    font-size: 2vw;
-}
-
 
 /* Splash screen javascript behavior splash landing */
 .intro {
