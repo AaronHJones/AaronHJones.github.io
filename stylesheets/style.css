@@ -1,3 +1,13 @@
+:root{
+    --prime: #ff9e80;
+    --primeLite: #ffd0b0;
+    --primeDark: #c96f53;
+    --second: #b9f6ca;
+    --secondLite: #ecfffd;
+    --secondDark: #88c399;
+    --textColor: #000000;
+}
+
 body{
     font-family: 'Mukta', sans-serif;
     margin: 0;
