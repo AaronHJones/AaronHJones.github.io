@@ -1,0 +1,39 @@
+<svg id="Mobile" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 113.67 238.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c52e1d;
+      }
+
+      .cls-1, .cls-5 {
+        stroke: #c52e1d;
+        stroke-miterlimit: 10;
+        stroke-width: 0.5px;
+      }
+
+      .cls-2 {
+        fill: #c7c7c7;
+      }
+
+      .cls-3 {
+        fill: #fafafa;
+      }
+
+      .cls-4 {
+        fill: #ff9574;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="0.25" y="0.25" width="113.17" height="238" rx="9.03"/>
+  <rect class="cls-2" x="1.83" y="16.25" width="110" height="8"/>
+  <rect class="cls-3" x="1.83" y="1.5" width="110" height="235.5" rx="8"/>
+  <rect class="cls-4" x="4.83" y="169.14" width="103" height="51.56"/>
+  <rect class="cls-5" x="81.25" y="144.67" width="235.5" height="110.67" rx="7.78" transform="translate(256.83 -79.75) rotate(90)"/>
+  <rect class="cls-2" x="4.83" y="28.25" width="104" height="13"/>
+  <rect class="cls-2" x="4.83" y="44.25" width="16" height="120"/>
+  <rect class="cls-4" x="22.83" y="44.25" width="85" height="120"/>
+</svg>
